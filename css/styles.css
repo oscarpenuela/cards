@@ -4,37 +4,57 @@
     /* font-size: 30px; */
 }
 
-header{
-    background-color: #00669F;
-    height: 15%;
-}
+/* header{
+    display: block;
+} */
 
 header p{
     background-color: #1CD1B0 ;
-    padding: 5px;
-    height: 14%;
+    padding: 0.3%;
+    /* height: 40%; */
 }
 
+h1{
+    margin-left: 50px;
+    /* margin-top: 1%; */
+    height: fit-content;
+}
 body{
     height: 100vh;
+    width: 100%;
 }
 
 .name{
-    height: 58%;
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    font-style: thin;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 nav{
     background-color: #001D2D;
     color: white;
-    height: 28%;
-    margin: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0.8%;
 }
 
-section{
-    min-height:80%;
+nav span{
+    padding: 0 10px;
+}
+
+.cards{
+    height: 80%;
 }
 
 footer{
-    height: 5%;
+    align-items: center;
     background-color: #00669F;
+    color: white;
+    display: flex;
+    height: 4%;
+    justify-content: center;    
 }
