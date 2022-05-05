@@ -42,10 +42,15 @@ nav{
     padding: 0.8%;
 }
 
-nav span{
+nav ul li{
+    display: inline-block;
     padding: 0 10px;
 }
 
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
 .cards{
     height: 80%;
 }
